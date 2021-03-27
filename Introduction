@@ -1,0 +1,22 @@
+** Motivation: **
+
+I was first introduced to soccer analytics through the MIT SLOAN conference paper "Physics-Based Modeling of Pass Probabilities in Soccer" by 
+William Spearman. This paper catched my atention for quite a while, so I started to read more about what is done in soccer analytics. 
+
+** The current panorama: **
+Traditionally stats in soccer are focused on ball events, giving origin to stats based on passes and shots, % of possession and shots on target. In average a player spends just
+a few minutes on touch of the ball, therefore due to the low time a player spends in posession of the ball and low scoring in soccer, other metrics have been created, such as expected goals.
+Just recently some Premier League broadcasts have incorporated this metric to their stats summary during the game.
+The born of new metrics that are based on physics and off- ball events is really new, dates from a couple of years back, and it started with open spaces 
+and pass probabilities. The best example is Pitch Control Model, a sophisticated model that takes into account the ball's trajectory,  
+the time to intercept, and the time it takes a player to control the ball, to create a probability surface that helps visualize the zones of the pitch that are in control of each player.
+
+since a couple of years ago, with the advance of technology and AI, teams have the ability to track players and ball movement over the hole pitch, over the entire course of the game.
+For the Premier League and MLS league a set of cameras where place around the stadiums monitoring the position of all the players every fraction of second. From this a collection
+of positions and times are stored to be analized later, this kind of data are called `tracking data` and consist of million of registers.
+It is possible to label each event, such as a pass, a faul, a goal, etc, this kind of data is called `event data`. For these two kind of data there are few companies
+that provide a feed for a fee, for the amateur I recommend access to fee data, for example statsbomb/free. 
+
+That been said, I will start by drawing a simple pitch using basic concepts and python 
+with *expected threat**
+
